@@ -2,7 +2,10 @@ import ServiceCard from "./common/ServiceCard";
 
 export const ServiceSection = () => {
   return (
-    <div className="container grid sm:grid-cols-3 gap-8 py-8 sm:py-10 lg:py-12 ">
+    <div
+      id="about"
+      className="container grid sm:grid-cols-3 gap-8 py-8 sm:py-10 lg:py-12 "
+    >
       <ServiceCard
         image="conn.png"
         heading="Product Design"

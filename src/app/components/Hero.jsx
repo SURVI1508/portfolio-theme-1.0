@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export const Hero = () => {
@@ -15,11 +16,11 @@ export const Hero = () => {
             This is a template Figma file, turned into code using Anima. <br />
             Learn more at AnimaApp.com
           </p>
-          <div className="py-5 sm:py-[1rem]">
+          <Link href="#contact" className="py-5 sm:py-[1rem] w-fit">
             <button className="w-[180px] sm:w-[250px] h-[50px] sm:h-[80px] font-[600] text-[15px] sm:text-[20px] text-white bg-[#2D2D2D]">
               Contact
             </button>
-          </div>
+          </Link>
         </div>
         <div className=" sm:h-[450px] w-full flex sm:hidden lg:flex justify-center ">
           <img className="h-full w-auto" src="HeaderImage 1.svg" alt="" />

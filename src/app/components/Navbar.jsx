@@ -3,9 +3,9 @@ import React from "react";
 export const Navbar = () => {
   return (
     <div className="w-full h-[70px] flex justify-between items-center container sm:py-[3rem]">
-      <div>
+      <Link href="/" className="w-fit">
         <h1 className="text-[20px] font-[600]">Logo</h1>
-      </div>
+      </Link>
       <div className="block sm:hidden">
         <span>
           <svg
@@ -22,13 +22,16 @@ export const Navbar = () => {
         </span>
       </div>
       <div className=" hidden sm:flex gap-10">
-        <Link className="text-[#2D2D2D] text-[1.3rem] font-[400]" href="/about">
+        <Link className="text-[#2D2D2D] text-[1.3rem] font-[400]" href="#about">
           About
         </Link>
-        <Link className="text-[#2D2D2D] text-[1.3rem] font-[400]" href="/about">
+        <Link className="text-[#2D2D2D] text-[1.3rem] font-[400]" href="#work">
           Work
         </Link>
-        <Link className="text-[#2D2D2D] text-[1.3rem] font-[400]" href="/about">
+        <Link
+          className="text-[#2D2D2D] text-[1.3rem] font-[400]"
+          href="#contact"
+        >
           Contact
         </Link>
       </div>

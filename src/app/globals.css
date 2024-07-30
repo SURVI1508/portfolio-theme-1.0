@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body,
+html {
+  scroll-behavior: smooth !important;
+}
 @layer utilities {
   .container {
     @apply w-full px-[2rem] sm:px-[3rem];

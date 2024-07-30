@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <div className="grid  sm:grid-cols-2 gap-9  py-12  container">
+    <div id="contact" className="grid  sm:grid-cols-2 gap-9  py-12  container">
       <div className=" flex flex-col gap-7">
         <h1 className="text-[25px] sm:text-[32px] font-bold">
           Lets work together

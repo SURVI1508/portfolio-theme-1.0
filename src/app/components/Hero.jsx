@@ -9,7 +9,7 @@ export const Hero = () => {
             Branding | Image making{" "}
           </span>
           <h1 className="text-[#2D2D2D] font-[600] text-[35px] sm:text-[68px]">
-            Visual Designer
+            Payal is a Visual Designer
           </h1>
           <p className="text-[#2D2D2D] text-center sm:text-start  font-[400] text-[13px] sm:text-[17px]">
             This is a template Figma file, turned into code using Anima. <br />
